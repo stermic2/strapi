@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_bodies",
+  "info": {
+    "name": "ResumeBody"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ShowWebDemoLink": {
+      "type": "boolean"
+    },
+    "ShowPhoneNumber": {
+      "type": "boolean"
+    },
+    "experiences": {
+      "collection": "experience"
+    },
+    "points": {
+      "collection": "point"
+    },
+    "ShowEmailAddress": {
+      "type": "boolean"
+    }
+  }
+}

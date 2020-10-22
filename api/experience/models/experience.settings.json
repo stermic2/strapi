@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Ongoing": {
+      "type": "boolean"
+    },
+    "PositionTitle": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "points": {
+      "collection": "point"
+    },
+    "tags": {
+      "collection": "tag"
+    }
+  }
+}

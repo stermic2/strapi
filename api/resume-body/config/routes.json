@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resume-bodies",
+      "handler": "resume-body.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-bodies/count",
+      "handler": "resume-body.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resume-bodies/:id",
+      "handler": "resume-body.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resume-bodies",
+      "handler": "resume-body.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resume-bodies/:id",
+      "handler": "resume-body.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resume-bodies/:id",
+      "handler": "resume-body.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
