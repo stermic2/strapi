@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "name": "guests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "postition": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}
